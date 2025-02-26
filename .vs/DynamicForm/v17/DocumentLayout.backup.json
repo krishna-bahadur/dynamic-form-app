@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.Net\\DynamicForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\views\\home\\formreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:views\\home\\formreports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\views\\home\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:views\\home\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\views\\home\\formdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:views\\home\\formdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\models\\formdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:models\\formdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\models\\formdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:models\\formdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\models\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:models\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\views\\shared\\sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:views\\shared\\sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|d:\\.net\\dynamicform\\migrations\\20250226062550_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00E3795-F6EC-4A21-B6A3-0D9331DCFA0B}|DynamicForm.csproj|solutionrelative:migrations\\20250226062550_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormReports.cshtml",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Views\\Home\\FormReports.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\FormReports.cshtml",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Views\\Home\\FormReports.cshtml",
+              "RelativeToolTip": "Views\\Home\\FormReports.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T12:15:58.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormDetails.cshtml",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Views\\Home\\FormDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\FormDetails.cshtml",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Views\\Home\\FormDetails.cshtml",
+              "RelativeToolTip": "Views\\Home\\FormDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:18:28.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Models\\FormDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\FormDetailsViewModel.cs",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Models\\FormDetailsViewModel.cs",
+              "RelativeToolTip": "Models\\FormDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:14:16.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Views\\Home\\Form.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Form.cshtml",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Views\\Home\\Form.cshtml",
+              "RelativeToolTip": "Views\\Home\\Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T09:15:22.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T06:28:43.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAlwDoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T06:28:37.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T06:29:04.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form.cs",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Models\\Form.cs",
+              "RelativeDocumentMoniker": "Models\\Form.cs",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Models\\Form.cs",
+              "RelativeToolTip": "Models\\Form.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T06:22:13.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T06:21:36.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormDetail.cs",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Models\\FormDetail.cs",
+              "RelativeDocumentMoniker": "Models\\FormDetail.cs",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Models\\FormDetail.cs",
+              "RelativeToolTip": "Models\\FormDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T10:10:35.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sidebar.cshtml",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Views\\Shared\\Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Sidebar.cshtml",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Views\\Shared\\Sidebar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Sidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T10:43:07.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\.Net\\DynamicForm\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-26T11:24:49.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T06:19:35.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250226062550_Initial.cs",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\Migrations\\20250226062550_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250226062550_Initial.cs",
+              "ToolTip": "D:\\.Net\\DynamicForm\\Migrations\\20250226062550_Initial.cs",
+              "RelativeToolTip": "Migrations\\20250226062550_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T06:25:51.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\.Net\\DynamicForm\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\.Net\\DynamicForm\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T06:18:08.393Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

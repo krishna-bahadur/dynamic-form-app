@@ -1,0 +1,60 @@
+﻿@model DynamicForm.Models.FormDetailsViewModel
+<style>
+    .removeField, .addDropdownOption {
+        display: none;
+    }
+
+    input, select {
+        border: none !important;
+    }
+
+    #saveBtn{
+        display:none;
+    }
+</style>
+
+@foreach (var formDetail in Model.FormDetails)
+{
+    <div class="form-detail-group">
+        <!-- Form fields will be rendered here -->
+        @Html.Raw(@Model.Form.FormSchema)
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script>
+            debugger;
+
+            var formDetailData = @Html.Raw(Json.Serialize(formDetail));
+
+            $(document).ready(function () {
+                debugger;
+                // Loop over the formDetail data to populate inputs/selects
+                for (var key in formDetailData) {
+                    if (formDetailData.hasOwnProperty(key)) {
+                        var fieldValue = formDetailData[key];
+
+                        // Find and populate the input or select fields based on their name attribute
+                        // $('input[name="' + key.toLowerCase() + '"]').val(fieldValue);
+                        // $('select[name="' + key.toLowerCase() + '"]').val(fieldValue);
+
+                        var inputField = $('input[name="' + key.toLowerCase() + '"]');
+                        var selectField = $('select[name="' + key.toLowerCase() + '"]');
+
+                        if (inputField.length) {
+                            inputField.after('<span>' + fieldValue + '</span>');
+                            inputField.remove();
+                            // Display the value as text after the input
+                        }
+
+                        if (selectField.length) {
+                            selectField.after('<span>' + fieldValue + '</span>');
+                            selectField.remove();
+                            // Display the value as text after the select
+                        }
+                    }
+                }
+                        
+            });
+        </script>
+
+        <hr/>
+    </div>
+}

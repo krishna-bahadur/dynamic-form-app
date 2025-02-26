@@ -1,0 +1,22 @@
+﻿@* @model DynamicForm.Models.FormDetailsViewModel
+<style>
+    .removeField, .addDropdownOption {
+        display: none;
+    }
+    input, select{
+            border: none !important;
+    }
+</style>
+
+@Html.Raw(@Model.Form.FormSchema)
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+        // Serializing the FormDetail data from the backend and passing it to the frontend
+        // var formDetailData = @Html.Raw(Json.Serialize(Model.FormDetail));
+    </script>
+<script>
+    $(document).ready(function () {
+        
+    });
+</script> *@

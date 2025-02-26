@@ -1,0 +1,52 @@
+﻿@model DynamicForm.Models.Form
+<style>
+    .removeField, .addDropdownOption {
+        display: none;
+    }
+    
+</style>
+
+<div class="row mt-2">
+    <div class="col-md">
+        <h5>@Model.FormKey</h5>
+    </div>
+    <div class="col-md text-end">
+        <a class="btn btn-sm btn-success" asp-controller="home" asp-action="formReports" asp-route-id="@Model.Id">View Repost</a>
+    </div>
+</div>
+<hr />
+
+@Html.Raw(@Model.FormSchema)
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#formContainer').attr('contenteditable', 'false');
+        $('#save').click(function(e) {
+            debugger;
+            e.preventDefault();
+
+            let formId = @Model.Id;
+            var formData = {formId: formId};
+
+            $("#dynamicForm input, #dynamicForm select").each(function () {
+                var name = $(this).attr("name");
+                var value = $(this).val();
+                if (name) {
+                    formData[name] = value;
+                }
+            });
+
+            $.ajax({
+                url: '/Home/Form',
+                type: 'POST',
+                data: formData,
+                success: function(response) {
+                    alert("Form saved successfully!");
+                }
+            });
+        });
+    });
+</script>
+
+

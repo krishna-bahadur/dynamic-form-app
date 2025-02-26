@@ -1,0 +1,101 @@
+﻿<div class="py-2">
+    <h3>Form Builder</h3>
+    <div class="bg-light my-2" id="form" style="min-height: 100px;">
+        <form id="dynamicForm">
+            <div id="formContainer" contenteditable="true" class="editable-container" style="padding: 10px; min-height: 100px;">
+            </div>
+            <div id="saveBtn">
+            </div>
+        </form>
+    </div>
+
+    <div id="formBuilder" class="text-center ">
+        <button id="addTextField" class="btn btn-primary">Add Text Field</button>
+        <button id="addDropDown" class="btn btn-success">Add DropDown</button>
+    </div>
+
+    <div class="text-end">
+        <button id="saveForm" class="btn bg-secondary text-white">Save</button>
+    </div>
+
+
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        let fieldCount = 0;
+
+        $('#addTextField').click(function() {
+            fieldCount++;
+
+            $('#formContainer').append(
+                `<div class="d-inline form-group" contenteditable="false" id="field${fieldCount}">
+                <input type="text" class="form-control w-auto d-inline" name="field${fieldCount}"/>
+                <button type="button" class="btn btn-sm btn-danger border-0 removeField" data-id="field${fieldCount}">Remove</button>
+                </div>`
+            );
+
+        });
+
+
+        $('#addDropDown').click(function() {
+           fieldCount++;
+           let dropDownId = `dropdown${fieldCount}`;
+
+           $('#formContainer').append(
+                `<div class="d-inline form-group" contenteditable="false" id="field${fieldCount}">
+                <select class="form-select  w-auto d-inline ${dropDownId}" name="field${fieldCount}"></select>
+                <button type="button" class="btn btn-sm btn-secondary border-0 addDropdownOption" data-dropdown="${dropDownId}">Add options</button>
+                <button type="button" class="btn btn-sm btn-danger border-0 removeField" data-id="field${fieldCount}">Remove</button>
+                </div>`
+           )
+
+        });
+
+        $(document).on('click', '.addDropdownOption', function() {
+            let dropdownClass = $(this).data('dropdown');
+            let optionValue = prompt('Enter option value');
+
+            if(optionValue){
+                $(`.${dropdownClass}`).append(`<option value="${optionValue}">${optionValue}</option>`)
+            }
+        })
+
+        $(document).on('click', '.removeField', function(){
+            let fieldId = $(this).data('id');
+            $('#' + fieldId).remove();
+        })
+
+        $('#saveForm').click(function(e) {
+            e.preventDefault();
+
+            // Dont show remove button and add option button also add save button for this form to be dynamic
+            $('#saveBtn').append(
+                    `<button id="save" class="btn bg-secondary text-white">Save</button>`
+            );
+
+            let formName = prompt("Enter a name for this form:") || "Untitled Form";
+            let formHtml = $('#form').html();
+
+            let formData = {
+                formName: formName,
+                formSchema: formHtml
+            };
+
+            $.ajax({
+                url: '/Home/Index',
+                type: 'POST',
+                data: formData,
+                success: function(response) {
+                    alert("Form saved successfully!");
+                },
+                error: function(error) {
+                    console.error("Error saving form:", error);
+                    alert("Error saving form. Please try again.");
+                }
+            });
+        });
+
+    });
+</script>
